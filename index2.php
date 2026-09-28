@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <?php include_once "./ink/nav.php"; ?>
+<?php
 
-    <h1> Pagina secundaria </h1>
-    <footer> Pie de pagina </footer>
-</body>
-</html>
+$nombre=$_GET["nombre"];
+$asig=$_GET["asignatura"];
+$frutas=$_GET["frutas"];
+
+echo $nombre. " - ". $asig. " - ". $frutas; 
